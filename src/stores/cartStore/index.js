@@ -113,7 +113,7 @@ const useCartStore = create((set, get) => ({
           "Rp " +
           (
             userCart.foods.find((food) => food.porsi === "L").jumlah *
-            userCart.foods.find((food) => food.porsi === "L").jumlah.harga
+            userCart.foods.find((food) => food.porsi === "L").harga
           )
             .toLocaleString()
             .replace(",", ".")
