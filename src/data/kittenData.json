@@ -1,0 +1,54 @@
+[
+  {
+    "id": 221,
+    "jk": "Jantan",
+    "desc": "Suka makan di lantai",
+    "nama": "Coco",
+    "umur": "3 Bulan",
+    "breed": "Mix",
+    "gambar": [
+      "https://i.ibb.co/5hryXqg/Whats-App-Image-2022-11-28-at-1-44-16-PM.jpg",
+      "https://i.ibb.co/YNR6z8f/Whats-App-Image-2022-11-28-at-1-44-17-PM-1.jpg",
+      "https://i.ibb.co/34xXqJk/Whats-App-Image-2022-11-28-at-1-44-17-PM.jpg"
+    ]
+  },
+  {
+    "id": 222,
+    "jk": "Betina",
+    "desc": "Pintar, tapi susah diatur",
+    "nama": "Nyunyuk",
+    "umur": "6 Bulan",
+    "breed": "Flat Nose",
+    "gambar": [
+      "https://i.ibb.co/5B0GrsX/Whats-App-Image-2022-11-27-at-11-27-22-AM.jpg",
+      "https://i.ibb.co/tZL71zp/Whats-App-Image-2022-11-28-at-10-08-04-AM-1.jpg",
+      "https://i.ibb.co/cvyphQv/Whats-App-Image-2022-11-28-at-10-08-04-AM.jpg"
+    ]
+  },
+  {
+    "id": 223,
+    "jk": "Betina",
+    "desc": "Gendut, tapi lincah",
+    "nama": "Bobi",
+    "umur": "1 Tahun",
+    "breed": "Mix",
+    "gambar": [
+      "https://i.ibb.co/cYKQSsz/Whats-App-Image-2022-11-28-at-1-44-18-PM.jpg",
+      "https://i.ibb.co/1vmhWjq/Whats-App-Image-2022-11-27-at-3-14-21-PM.jpg",
+      "https://i.ibb.co/pdQPQ3z/Whats-App-Image-2022-11-28-at-1-55-26-PM.jpg"
+    ]
+  },
+  {
+    "id": 224,
+    "jk": "Jantan",
+    "desc": "Si paling jago",
+    "nama": "Oyo",
+    "umur": "4 Bulan",
+    "breed": "Flat Nose",
+    "gambar": [
+      "https://i.ibb.co/2gjcqJr/Whats-App-Image-2022-11-27-at-6-34-48-PM.jpg",
+      "https://i.ibb.co/pnbCCsL/Whats-App-Image-2022-11-28-at-1-44-19-PM-1.jpg",
+      "https://i.ibb.co/RjwwdSz/Whats-App-Image-2022-11-28-at-1-44-19-PM.jpg"
+    ]
+  }
+]

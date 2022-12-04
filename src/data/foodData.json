@@ -1,0 +1,16 @@
+[
+  {
+    "id": 111,
+    "desc": "Dibuat dari ayam dan ikan segar",
+    "nama": "Wet Food",
+    "harga": {
+      "L": 15000,
+      "S": 10000
+    },
+    "gambar": [
+      "https://i.ibb.co/cY7qxNf/diy-homemade-dog-food.jpg",
+      "https://i.ibb.co/6mZdS29/Dog-Gravy-Recipe-Photo.jpg",
+      "https://i.ibb.co/hfqcwQg/maxresdefault.jpg"
+    ]
+  }
+]
