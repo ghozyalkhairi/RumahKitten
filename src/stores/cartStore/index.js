@@ -101,21 +101,29 @@ const useCartStore = create((set, get) => ({
       if (variantS && !variantL)
         return (
           "Rp " +
-          (userCart.foods.find((food) => food.porsi === "S").jumlah * 10000)
+          (
+            userCart.foods.find((food) => food.porsi === "S").jumlah *
+            userCart.foods.find((food) => food.porsi === "S").harga
+          )
             .toLocaleString()
             .replace(",", ".")
         )
       if (!variantS && variantL)
         return (
           "Rp " +
-          (userCart.foods.find((food) => food.porsi === "L").jumlah * 15000)
+          (
+            userCart.foods.find((food) => food.porsi === "L").jumlah *
+            userCart.foods.find((food) => food.porsi === "L").jumlah.harga
+          )
             .toLocaleString()
             .replace(",", ".")
         )
       const variantSPrice =
-        userCart.foods.find((food) => food.porsi === "S").jumlah * 10000
+        userCart.foods.find((food) => food.porsi === "S").jumlah *
+        userCart.foods.find((food) => food.porsi === "S").harga
       const variantLPrice =
-        userCart.foods.find((food) => food.porsi === "L").jumlah * 15000
+        userCart.foods.find((food) => food.porsi === "L").jumlah *
+        userCart.foods.find((food) => food.porsi === "L").harga
       return (
         "Rp " +
         (variantSPrice + variantLPrice).toLocaleString().replace(",", ".")
