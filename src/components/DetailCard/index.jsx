@@ -45,9 +45,6 @@ function DetailCard() {
         duration: 2500,
         isClosable: true,
         position: "top",
-        containerStyle: {
-          backgroundColor: "#25DD58",
-        },
       })
       return
     }
